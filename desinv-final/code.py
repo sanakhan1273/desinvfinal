@@ -14,36 +14,36 @@ while True:
     # and then off (0,0,0) after 1/4 second
     if cp.touch_A1:
         cp.pixels[6] = (255, 0, 0)
-        cp.play_file("bird-0.wav")
+        cp.play_file("electro1.mp4")
         time.sleep(0.25)
         cp.pixels[6] = (0, 0, 0)
     if cp.touch_A2:
         cp.pixels[7] = (0, 255, 0)
-        cp.play_file("bird-1.wav")
+        cp.play_file("electro2.mp4")
         time.sleep(0.25)
         cp.pixels[7] = (0, 0, 0)
     if cp.touch_A3:
         cp.pixels[8] = (0, 255, 0)
-        cp.play_file("bird-2.wav")
+        cp.play_file("electro3.mp4")
         time.sleep(0.25)
         cp.pixels[8] = (0, 0, 0)
     if cp.touch_A4:
         cp.pixels[0] = (40, 15, 210)
-        cp.play_file("bird-7.wav")
+        cp.play_file("electro4.mp4")
         time.sleep(0.25)
         cp.pixels[0] = (0, 0, 0)
     if cp.touch_A5:
         cp.pixels[1] = (255, 50, 55)
-        cp.play_file("bird-4.wav")
+        cp.play_file("electro5.mp4")
         time.sleep(0.25)
         cp.pixels[1] = (0, 0, 0)
     if cp.touch_A6:
         cp.pixels[3] = (125, 0, 255)
-        cp.play_file("bird-5.wav")
+        cp.play_file("electro6.mp4")
         time.sleep(0.25)
         cp.pixels[3] = (0, 0, 0)
     if cp.touch_A7:
         cp.pixels[4] = (0, 255, 55)
-        cp.play_file("bird-6.wav")
+        cp.play_file("electro7.mp4")
         time.sleep(0.25)
         cp.pixels[4] = (0, 0, 0)
